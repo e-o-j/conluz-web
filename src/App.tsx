@@ -1,13 +1,15 @@
 import './App.css'
 import { Route, Routes } from 'react-router'
 import { AuthenticatedLayout } from './layouts/authenticated.layout'
+import ContactPage from './pages/contact/Contact.page'
 
 function App() {
 
   return (
     <>
       <Routes>
-        <Route index element={<AuthenticatedLayout/>}>
+        <Route element={<AuthenticatedLayout/>}>
+          <Route index />
         </Route>
       </Routes>
     </>

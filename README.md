@@ -1,34 +1,22 @@
-## Getting Started
+# Conluz Web
+Web interface made in react to interact with [Conluz](https://github.com/lucoenergia/conluz)
 
-First, install project dependencies:
-
-```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
-# or
-bun install
+# Getting started
+To run the project for development you will need to have installed both node.js and npm. Then after cloning the repository run:
+```sh
+npm i  
 ```
 
-Second, run the development server:
+This will install all the required dependencies.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Running the project
+To run the project for development (with hot-reloading) use the command:
+```sh
+npm run dev  
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Using dockerized version (Docker compose must be installed in the system)
+```sh
+cd docker
+docker compose up -d 
+```
